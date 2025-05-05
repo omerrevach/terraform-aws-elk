@@ -46,7 +46,8 @@ terraform {
 
 ```hcl
 module "elk" {
-  source = "yourname/elk/aws"
+  source = "omerrevach/elk/aws"
+  version = "1.0.0"
   
   region           = "us-west-2"
   domain           = "example.com"
